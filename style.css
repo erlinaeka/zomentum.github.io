@@ -18,7 +18,9 @@ header {
   top: 0;
   z-index: auto;
 }
-
+#header {
+  z-index: 20;
+}
 header a {
   text-decoration: none;
 }
@@ -380,7 +382,7 @@ footer,
     justify-content: space-evenly;
   }
   .heroimg img {
-    width: 350px;
+    width: 320px;
     padding-left: 0px;
   }
   .herodesc {
