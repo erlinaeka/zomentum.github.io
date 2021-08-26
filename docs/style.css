@@ -1,0 +1,462 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap");
+header {
+  box-sizing: border-box;
+}
+.container {
+  /*mengubah width menjadi 100%*/
+  width: 95%;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: auto;
+}
+#header {
+  z-index: 20;
+}
+header a {
+  text-decoration: none;
+}
+.header-left {
+  float: left;
+}
+.btn-header {
+  float: right;
+  background-color: white;
+}
+.btn-header a {
+  line-height: 60px;
+  display: inline-block;
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+header .btn {
+  background-color: white;
+  color: black;
+}
+.demo {
+  color: #1e90ff;
+  border: 1px solid black;
+  cursor: pointer;
+  height: 50px;
+  text-align: center;
+  padding: 0 20px;
+  transition: all 1s;
+  border-radius: 4px;
+}
+.demo:hover {
+  background-color: #afeeee;
+}
+.menu-icon {
+  font-size: 25px;
+  /* Gantikan property display ke none */
+  display: none;
+}
+.logo {
+  display: block;
+  padding: 15px;
+  padding-left: 40px;
+}
+.logo img {
+  display: block;
+}
+header .fa {
+  margin-right: 5px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+#main {
+  margin-bottom: 100px;
+  margin-top: 220px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.herodesc {
+  width: 500px;
+  margin-top: 20px;
+}
+
+.herodesc h4 {
+  font-size: 28px;
+}
+
+.herodesc p {
+  color: rgb(92, 92, 92);
+  display: block;
+  margin-top: -20px;
+}
+
+.herodesc button {
+  padding: 10px 20px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: #458ff6;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.heroimg img {
+  width: 500px;
+  padding-left: 30px;
+}
+
+.body-container,
+main {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.body-resume {
+  margin-bottom: 150px;
+  background-image: url(http://drive.google.com/uc?export=view&id=1lBIEw_r0mN9QvcdCgIfwyidJ8tIauwr1);
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.body-resume h1 {
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 34px;
+}
+.resume-icon {
+  margin: 0 auto;
+  width: 930px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.isiresume-icon {
+  width: 250px;
+  font-size: 14px;
+  text-align: center;
+}
+.resume-img-bg {
+  background-color: #e1ecff;
+  height: 80px;
+  width: 80px;
+  margin: 0 auto;
+  border-radius: 100%;
+  position: relative;
+}
+.resume-img-bg img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+  position: absolute;
+  opacity: 1;
+}
+
+.descbenefit {
+  width: 400px;
+  padding: auto 20px;
+}
+
+.benefit {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.benefitreverse {
+  flex-direction: row-reverse;
+}
+
+.descbenefit h4 {
+  font-size: 27px;
+}
+
+.descbenefit p {
+  font-size: 15px;
+  text-align: justify;
+  margin-top: -20px;
+}
+
+.descbenefit a {
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.imgbenefit img {
+  width: 420px;
+}
+.imgbenefit img:hover {
+  animation: flash 2.5s;
+}
+
+.body-contact {
+  margin-top: 110px;
+  background-image: url(http://drive.google.com/uc?export=view&id=16Q6REn5JxCrnTnEGVyUYhm9nw43Ba-ua);
+  background-size: cover;
+}
+.form-contact {
+  width: 400px;
+  margin: 20px auto;
+  padding: 2px 20px;
+  padding-bottom: 20px;
+  background-color: #458ff6;
+  color: white;
+  border-radius: 15px;
+}
+.form-contact h4 {
+  text-align: center;
+  font-size: 27px;
+}
+.form-contact p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+.form-contact input {
+  width: 390px;
+  height: 25px;
+  border-radius: 4px;
+  border: 1px solid rgb(214, 210, 210);
+  padding-top: 5px;
+  font-size: 15px;
+  background-color: rgb(236, 235, 235);
+}
+.form-contact label {
+  display: block;
+  margin-top: 10px;
+}
+.form-contact textarea {
+  width: 390px;
+  height: 150px;
+  border: 1px solid rgb(214, 210, 210);
+  border-radius: 4px;
+  background-color: rgb(236, 235, 235);
+}
+.form-contact button {
+  padding: 10px 25px;
+  margin-top: 10px;
+  display: block;
+  background-color: rgb(236, 235, 235);
+  border: 0px;
+  color: #458ff6;
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+footer,
+.footer {
+  margin-top: 200px;
+  width: 100%;
+  height: 265px;
+  background-color: #000;
+  inset: 0;
+}
+
+.footer-heading li {
+  list-style: none;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer-heading {
+  float: left;
+  width: 20%;
+}
+
+.footer-heading h3 {
+  font-weight: normal;
+  color: whitesmoke;
+}
+
+.footer-left {
+  color: wheat;
+}
+
+.footer-right {
+  float: left;
+  color: wheat;
+}
+
+.footer-container {
+  padding: 5px 20px;
+}
+
+.footer-last {
+  float: left;
+  background-color: black;
+}
+
+.footer .list ul li {
+  list-style: none;
+  float: left;
+  color: wheat;
+  margin-right: 450px;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+  }
+  .heroimg img {
+    width: 500px;
+  }
+  .heroimg img,
+  .herodesc {
+    display: block;
+    margin: auto;
+  }
+  .menu-icon {
+    display: block;
+    width: 50px;
+    height: auto;
+  }
+  .btn-header {
+    display: none;
+  }
+  .herodesc {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .body-container {
+    width: 95%;
+  }
+  .benefitreverse,
+  .benefit {
+    flex-direction: column-reverse;
+  }
+  .imgbenefit img,
+  .descbenefit {
+    display: block;
+    margin: auto;
+  }
+  .resume-icon {
+    flex-direction: column;
+  }
+  .resume-icon {
+    width: 500px;
+  }
+  .isiresume-icon {
+    margin: auto;
+    margin-top: 40px;
+  }
+  .footer,
+  footer {
+    height: 400px;
+  }
+  .footer .list ul li {
+    display: block;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 470px) {
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+  }
+  .heroimg img {
+    width: 320px;
+    padding-left: 0px;
+  }
+  .herodesc {
+    width: 300px;
+  }
+  .menu-icon {
+    display: block;
+    height: auto;
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+  .benefitreverse,
+  .benefit {
+    flex-direction: column-reverse;
+  }
+  .imgbenefit img,
+  .descbenefit {
+    display: block;
+    margin: auto;
+  }
+  .descbenefit {
+    width: 280px;
+  }
+  .imgbenefit img {
+    width: 270px;
+  }
+  .descbenefit h4 {
+    font-size: 21px;
+  }
+  .descbenefit p {
+    font-size: 11px;
+  }
+  .descbenefit a {
+    font-size: 11px;
+  }
+  .form-contact {
+    width: 250px;
+  }
+  .form-contact input {
+    width: 240px;
+    height: 18px;
+  }
+  .form-contact textarea {
+    width: 240px;
+    height: 90px;
+  }
+  .form-contact button {
+    padding: 7px 20px;
+  }
+  .resume-icon {
+    flex-direction: column;
+  }
+  .resume-icon {
+    width: 300px;
+  }
+  .isiresume-icon {
+    margin: auto;
+    margin-top: 20px;
+  }
+  .body-resume h1 {
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 28px;
+  }
+
+  .footer-heading {
+    width: 100%;
+  }
+  .footer,
+  footer {
+    height: 1000px;
+  }
+  .footer .list ul li {
+    display: block;
+    margin: 0;
+  }
+}
